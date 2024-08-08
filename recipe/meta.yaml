@@ -1,5 +1,5 @@
 {% set name = "http-ece" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/http_ece-{{ version }}.tar.gz
-  sha256: b5920f8efb8e1b5fb025713e3b36fda54336262010634b26dc1f98f85d1eb3de
+  sha256: 8c6ab23116bbf6affda894acfd5f2ca0fb8facbcbb72121c11c75c33e7ce8cff
 
 build:
   noarch: python
